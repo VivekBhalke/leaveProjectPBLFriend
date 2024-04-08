@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Leave Management System</title>
+	<link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+	<header>
+		<h1>Leave Management System</h1>
+	</header>
+	<main>
+		<form id="login-form">
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username" required>
+			<br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required>
+			<br>
+			<label for="role">Role:</label>
+			<select id="role" name="role" required>
+				<option value="">Select Role</option>
+				<option value="student">STUDENT</option>
+				<option value="warden">WARDEN</option>
+				<option value="parent">PARENT</option>
+			</select>
+			<!-- <div id="student-rollno" style="display: none;">
+                <label for="rollno">Student Roll No:</label>
+                <input type="text" id="rollno" name="rollno" required>
+                <br>
+            </div> -->
+			<br>
+			<button type="submit">Log In</button>
+			<button type="button" id="signup-btn">Sign Up</button>
+			
+		</form>
+	</main>
+	<footer>
+		<p>Copyright © 2023 Leave Management System</p>
+	</footer>
+	<script src="login.js"></script>
+</body>
+</html>
